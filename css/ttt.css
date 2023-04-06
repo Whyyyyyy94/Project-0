@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+}
+
+.container {
+    margin: 0 auto;
+    width: 950px;
+    background-color: lightgrey
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px 0 0 0;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 500%;
+    margin-bottom: 50px;
+    color:yellow
+}
+
+#gameboard {
+    width: 550px;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.box {
+    height: 170px;
+    width: 170px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-size:153px;
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+    color: green;
+}
+.box:nth-child(3n){
+    border-right: none;
+}
+.box:nth-child(7){
+    border-bottom: none;
+}
+.box:nth-child(8){
+    border-bottom: none;
+}
+.box:nth-child(9){
+    border-bottom: none;
+}
+
+button {
+    border-radius: 1em;
+    padding: 10px 20px;
+    background-color: blueviolet;
+
+}
